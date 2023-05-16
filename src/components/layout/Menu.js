@@ -9,7 +9,7 @@ const Menu = () => {
         <div className={classes.wrapper}>
             <section className={classes.home}>
                 <div className={classes.btn}>
-                    <Link to='/menu'>
+                    <Link to='/menu' style={{textDecoration:'none'}}>
                     <Button variant='contained' color='warning'>see more &#10230;</Button>
                     </Link>
                 </div>
